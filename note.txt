@@ -1,25 +1,37 @@
-git config --global use.name ""
-git config --global use.mail ""
-git init : thông báo sẽ dùng git cho folder này, chỉ làm 1 lần cho mỗi dự án
+git config --global user.name ""
+git config --global user.email ""
+git init : thông báo sẽ git cho folfer này, chỉ làm 1 lần cho mỗi dự án
 
 git remote add origin duong_dan_den_repo_git : kết nối folder hiện tại với repo trên git
-vd git remote add origin https://github.com/Hoangdc2121/bc96_git.git
+VD: git remote add origin https://github.com/hothiphuongnga/bc96_git.git
 
-git remote -v: kiểm tra lại thông tin 
+git remote -v : kiểm tra lại thông tin 
 
--- đẩy code lên git hub 
-git add.
+
+-- đẩy code lên github
+
+git add .
 
 git commit -m "noidung commit"
 
-git push 
- -ở lần đầu push 
- git push -u origin main hoặc master
 
- - lần bình thường (not first)
- git push
+git push
+    ở lần push 
+    git push -u origin main/master
 
- 
-// file màu xanh tức là file mới tạo 
+    lần bình thường (not first)
+    git push
 
-u: là untracked là chưa được theo dõi 
+
+
+file màu xanh        file mới tạo 
+xanh dương: file có thay đổi
+
+
+
+u: untracked
+m: 
+a
+d: delete
+r: rename
+c: conflict
