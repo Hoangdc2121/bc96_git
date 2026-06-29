@@ -38,3 +38,4 @@ c: conflict
 
 git checkout : đi đến lần commit nào đó , đi đến main/master
 branch: nhánh 
+dòng code eidt trực tiếp trên github online
